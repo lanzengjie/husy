@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mail</title>
+		<link rel="stylesheet" href="css/初始化.css" />
+		<style>
+		body {
+				width: 100%;
+				overflow-x: hidden;
+			}
+			
+			#ban {
+				width: 100%;
+				height: 70px;
+				background-color: #2a2a2a;
+				font-family: Open Sans, sans-serif;
+				color: white;
+			}
+			
+			.clearfix {
+				width: 90%;
+				height: 70px;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			.clearfix>ul>li>a {
+				display: block;
+				width: 30px;
+				height: 30px;
+				border-radius: 100%;
+				background-color: white;
+				background-image: url(img/img-sp.png);
+				background-position-y: 7px;
+				background-position-x: 3px;
+				margin-top: 20px;
+				margin-right: 3px;
+				float: left;
+			}
+			
+			.clearfix>ul>li>a:hover {
+				background-color: #00BFFF;
+				transition: background-color 1s linear;
+			}
+			
+			.logo {
+				float: left;
+				margin-left: 9em;
+			}
+			
+			.logo a {
+				display: inline-block;
+				width: 150px;
+				height: 60px;
+				font-size: 50px;
+				margin-left: 20px;
+				color: white;
+			}
+			
+			.logo a:hover {
+				color: white;
+			}
+			
+			.header_right {
+				display: inline-block;
+				float: right;
+				width: 380px;
+				height: 70px;
+			}
+			
+			.header_right>ul>li>a {
+				color: white;
+				height: 70px;
+				font-size: 14px;
+				line-height: 70px;
+				float: left;
+				border-right: 1px dotted #999;
+				padding-left: 11px;
+				padding-right: 11px;
+			}
+			
+			.header_right>ul>li>.li1 {
+				border-left: 1px dotted #999;
+				color: #00BFFF;
+			}
+			
+			.header_right>ul>li>a:hover {
+				color: #00BFFF;
+			}
+			
+			.li1 {
+				
+				color: #00BFFF;
+			}
+			
+			.firstfloor {
+				background-size: cover;
+				min-height: 600px;
+				border: solid 1px silver;
+				background-image: url(img/22.jpg);
+				background-repeat: no-repeat;
+			}
+			
+			.firstfloor h3 {
+				width: 1140px;
+				margin-top: 280px;
+				margin-left: 50%;
+				position: absolute;
+				left: -570px;
+				font-size: 3em;
+				color: #fff;
+				padding: 2.5em 0 0;
+			}
+			.secondfloor {
+				width: 100%;
+				height: 276px;
+				background-color: #f5f5f5;
+			}
+			
+			.sf {
+				width: 1140px;
+				height: 180px;
+				margin-top: 48px;
+				margin-left: 50%;
+				position: absolute;
+				left: -570px;
+			}
+			
+			.sf01 {
+				width: 30%;
+				height: 160px;
+				float: left;
+				margin-right: 15px;
+				margin-left: 15px;
+				padding-top: 20px;
+			}
+			
+			.sfi {
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				margin-left: 50%;
+				border: solid;
+				position: relative;
+				left: -50px;
+				background: transparent;
+				border: 2px solid #E44C4C;
+				border-radius: 60px;
+				background-color: rgba(255,0,0,0.8);
+				background-size: 50%;
+				background-repeat: no-repeat;
+				background-position-x: 26px;
+				background-position-y: 27px;
+			}
+			 #sfii{
+			 	background-image: url(img/地图.png);
+			 	
+			 }
+			 #sfi2{
+			 	background-image:url(img/信封.png);
+			 	
+			 }
+			 #sfi3{
+			 	background-image:url(img/电话.png);
+			 	
+			 }
+			.sfi:hover {
+				transition: background-color 0.3s linear;
+				background-position-x: 26px;
+				background-position-y: 32px;
+				background-color: rgba(0,255,0,0.6);
+			}
+			
+			.sf01 h3 {
+				font-size: 1.2em;
+				color: #999;
+				margin: 1em 0 0;
+				line-height: 2em;
+				text-transform: capitalize;
+				text-align: center;
+			}
+			.thirdfloor{
+				width: 100%;
+				height: 664px;
+			}
+			.tf{
+				width: 1140px;
+				height: 504px;
+				margin: 80px auto;
+			}
+			.tf h3{
+				width: 1140px;
+				height: 60px;
+				text-align: center;
+				font-size: 2.5em;
+    color: #212121;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+			}
+			.tf h3 span{
+				    font-weight: 300;
+    color: #E44C4C;
+			}
+			.tf_left,.tf_right{
+				width: 50%;
+				height: 140px;
+			    position: relative;
+   ;
+    float: left;
+			}
+			.tf input{
+				outline: none;
+    border: 1px solid #E4E4E4;
+    background: #f5f5f5;
+    padding: 10px;
+    width: 92%;
+    font-size: 14px;
+    color: #212121;
+    margin-bottom: 28px;
+			}
+			.tf textarea{
+				    margin: 0 auto;
+    min-height: 200px;
+    width: 96.5% !important;
+        outline: none;
+    border: 1px solid #E4E4E4;
+    background: #f5f5f5;
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #212121;
+    }
+    textarea {
+    overflow: auto;
+			}
+	#submit{
+		   outline: none;
+    background: #00BFFF;
+    padding: 10px 0;
+    width: 35%;
+    font-size: 1em;
+    color: #fff;
+    margin: 3em 30em;
+    text-align: center;
+    }
+    #submit:hover{
+    	background: #000;
+    	transition: background-color .5s linear; 
+    }
+    .footer {
+				width: 1140px;
+				height: 145px;
+				margin: 0 auto;
+			}
+			
+			.footer h2 {
+				font-size: 2em;
+				text-indent: 1em;
+				color: #212121;
+				font-weight: 100;
+				margin-bottom: 1em;
+			}
+			
+			.footer h2 span {
+				display: block;
+				text-transform: uppercase;
+				font-weight: 600;
+				color: #E44C4C;
+				font-size: 1.5em;
+				font-weight: 700;
+			}
+			
+			.footer input[type="email"] {
+				outline: none;
+				color: #999;
+				padding: 10px;
+				font-size: 1.5em;
+				width: 80%;
+				background: none;
+				border: none;
+				border-bottom: 1px solid #999;
+			}
+			
+			.footer input[type="submit"]:hover {
+				background: #212121;
+			}
+			
+			.footer input[type="submit"] {
+				outline: none;
+				color: #fff;
+				padding: 10px 0;
+				font-size: 1.5em;
+				width: 15%;
+				background: #00BFFF;
+				border: none;
+				text-transform: uppercase;
+				margin-left: 1em;
+			}
+			
+			hr {
+				margin-top: 100px;
+			}
+			
+			#final {
+				margin-left: 50%;
+				position: relative;
+				top: -25px;
+			}
+				
+			</style>
+	</head>
+	<body>
+			<div class="header" id="ban">
+			<div class="clearfix">
+				<ul>
+					<li class="facebook">
+						<a href="#"></a>
+					</li>
+					<li class="twitter">
+						<a href="#"></a>
+					</li>
+					<li class="google">
+						<a href="#"></a>
+					</li>
+					<li class="pinterest">
+						<a href="#"></a>
+					</li>
+					<li class="instagram">
+						<a href="#"></a>
+					</li>
+				</ul>
+				<div class="logo">
+					<h1><a href="#">Barter</a></h1>
+				</div>
+				<div class="header_right">
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="About.html" >About</a>
+						</li>
+						<li>
+							<a href="Portfolio.html">Portfolio</a>
+						</li>
+						<li>
+							<a href="shord codes.html">Short Codes</a>
+						</li>
+						<li>
+							<a href="Mail.html" class="li1">Mail</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--以上是头部-->
+		<div class="firstfloor">
+			<h3>Mail</h3>
+		</div>
+		<!--以上是一层-->
+		<div class="secondfloor">
+			<div class="sf">
+				<div class="sf01">
+					<div class="sfi" id="sfii">
+						<span></span></div>
+					<h3>voluptate velit non proident quam.</h3>
+				</div>
+				<div class="sf01" >
+					<div class="sfi" id="sfi2">
+						<span></span></div>
+					<h3>autem autem vel repre qui voluptate.</h3></div>
+				<div class="sf01">
+					<div class="sfi" id="sfi3">
+						<span></span></div>
+					<h3>qui in ea voluptate velit esse quam.</h3></div>
+			</div>
+		</div>
+		<!--以上是第二层-->
+		<div class="thirdfloor">
+			<div class="tf">
+				<h3><span>Mail</span> Us</h3>
+				<div class="tf_left">
+					<form>
+						<input type="text" value="Name" name="Name" >
+						<input type="text" value="Phone" name="Phone">
+					</form>
+				</div>
+				<div class="tf_right">
+					<form>
+						<input type="text" value="Email" name="Email" >
+						<input type="text" value="Subject" name="Subject">
+					</form></div>
+					<textarea name="Message" >Message...</textarea>
+					<input type="submit" value="Submit Now" id="submit">
+				
+			</div>
+		</div>
+		<!--以上是第三层-->
+		<div class="footer">
+			<h2>
+				Subscribe to 
+				<span>Newsletter</span>
+			</h2>
+			<form action="#" method="post">
+				<input type="email" name="Email" value="Enter Your Email...">
+				<input type="submit" value="Send">
+			</form>
+		</div>
+		<hr class="hr" />
+		<input type="image" src="img/arrow.png" id="final" />
+	</body>
+	<script>
+	var final = document.getElementById("final");
+		final.onclick = function() {
+			same = setInterval(function() {
+					document.documentElement.scrollTop += -10;
+					if(document.documentElement.scrollTop == 0) {
+						clearInterval(same)
+					}
+				}
+
+				, 5)
+		}</script>
+
+</html>
