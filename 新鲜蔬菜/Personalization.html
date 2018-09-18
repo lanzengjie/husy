@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/css_initialize.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/nivo-slider.css" />
+		<link rel="stylesheet" href="css/default.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<style>
+			.nsneo-personal-content {
+				width: 100%;
+				height: 925px;
+				background-color: #f7f7f7;
+			}
+			
+			.nsneo-p-title {
+				width: 62.5%;
+				height: 35px;
+				margin: 0 auto;
+				padding-top: 23px;
+			}
+			
+			.nsneo-p-btn {
+				background-color: white;
+				margin-right: 11.3px;
+				width: 87px;
+			}
+			
+			.nsneo-p-btn:hover {}
+			
+			.nsneo-p-active {
+				background-color: #4ec053;
+				color: white;
+			}
+			
+			.nsneo-p-left {
+				width: 70%;
+				height: 744px;
+				background-color: white;
+			}
+			
+			.nsneo-p-right {
+				width: 28.5%;
+				height: 435px;
+				margin-left: 10px;
+				background-color: white;
+			}
+			
+			.nsneo-p-content {
+				width: 62.5%;
+				margin: 32px auto;
+			}
+			
+			.nsneo-p-liu {
+				width: 100%;
+				height: 16%;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+			}
+			
+			.nsneo-p-ln {
+				width: 505px;
+				height: 82px;
+			}
+			
+			.nsneo-p-ln img {
+				margin-right: 10px;
+			}
+			
+			.nsneo-p-ln p {
+				margin-bottom: 0;
+				margin-top: 5px;
+				font-size: 12px;
+				color: #989898;
+			}
+			
+			#nsneo-p-ln-title {
+				margin-bottom: 0;
+				margin-top: 6.6px;
+				font-family: "黑体";
+				font-size: 13px;
+				color: black;
+			}
+			
+			.nsneo-p-ln span {
+				font-size: 12px;
+				color: #c7c7c7;
+			}
+			
+			#nsneo-mark {
+				height: 11px;
+				margin-right: 2px;
+				margin-left: 5px;
+			}
+			
+			.nsneo-p-right-list {
+				margin-top: 20px;
+				margin-left: 5px;
+			}
+			
+			.nsneo-p-right-list img {
+				width: 81px;
+				float: left;
+				clear: both;
+			}
+			
+			.nsneo-p-right-list>div {
+				margin-left: 14px;
+				height: 100%;
+			}
+			
+			.nsneo-p-right-list h1 {
+				font-size: 14px;
+				height: 14px;
+				margin-left: 0;
+				padding: 0;
+				margin-top: 10px;
+				margin-bottom: 4px;
+			}
+			
+			.nsneo-p-right-list p {
+				font-size: 11px;
+				color: #999999;
+				margin: 0;
+			}
+			
+			.nsneo-p-right-list span {
+				color: #be0000;
+				font-size: 13px;
+			}
+			
+			.nsneo-p-right-title {
+				width: 100%;
+				margin-top: 10px;
+				margin-left: 5px;
+			}
+			
+			.nsneo-p-right-title span {
+				font-size: 13px;
+				margin-top: 14px;
+				color: #343434;
+				font-family: "黑体";
+			}
+			
+			.nsneo-p-pagnation {
+				width: 70%;
+				display: flex;
+				justify-content: space-around;
+				position: relative;
+				top: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header>
+
+			<div class=" nsneo-logo"><img src="img/haierlogo.png" width="100%"></div>
+			<ul class="nsneo-nav">
+				<li>
+					<a class="nsneo-nav-a" href="index.html">首页</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="InterNetFarm.html">互联农场</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="IngredientsPanoramic.html">食材全景</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-active nsneo-nav-a" href="Personalization.html">个性定制</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="HeathyCommunity.html">健康社群</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="Information.html">行业资讯</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="AboutUs.html">关于我们</a>
+				</li>
+			</ul>
+			<div class="nsneo-header-search">
+				<img src="img/search.png" width="16px">
+				<input type="search" placeholder="搜索" />
+			</div>
+			<div class="nsneo-header-right">
+				<img src="img/person.png" width="20px" />
+				<span>登录/注册</span>
+			</div>
+		</header>
+		<!--以上是头部部分-->
+		<div class="nsneo-ip">
+			<img src="http://lnj.cosmoplat.com/resources/staticRes/haier/upload/imgs/ebf3b46b-2fb3-4015-b9e1-58a91b8f0c0a.jpg" width="100%" height="100%">
+		</div>
+		<!--以上是头部图-->
+		<div class="nsneo-personal-content">
+			<div class="nsneo-p-title">
+				<button class="btn pull-left nsneo-p-btn nsneo-p-active">精选</button>
+				<button class="btn pull-left nsneo-p-btn ">最新</button>
+			</div>
+			<div class="nsneo-p-content">
+				<div class="pull-left nsneo-p-left">
+					<div class="nsneo-p-liu">
+						<div class="nsneo-p-ln">
+							<img class="pull-left" src="img/食材图层 12@2x.png" height="82px" width="127px" />
+							<p id="nsneo-p-ln-title">爱吃大蒜，但如何才能避免气味和刺激的问题？</p>
+							<p>爱吃大蒜，但大蒜刺激胃黏膜，吃完还有浓重的气味，如何才能两全其美。</p>
+							<span>08/06</span><img id="nsneo-mark" src="img/liulan.png" /><span>888</span><img id="nsneo-mark" src="img/zan.png" /><span>888</span><img id="nsneo-mark" src="img/shuqian.png" /><span>678</span>
+						</div>
+					</div>
+					<div class="nsneo-p-liu">
+						<div class="nsneo-p-ln">
+							<img class="pull-left" src="img/食材图层 12@2x.png" height="82px" width="127px" />
+							<p id="nsneo-p-ln-title">爱吃大蒜，但如何才能避免气味和刺激的问题？</p>
+							<p>爱吃大蒜，但大蒜刺激胃黏膜，吃完还有浓重的气味，如何才能两全其美。</p>
+							<span>08/06</span><img id="nsneo-mark" src="img/liulan.png" /><span>888</span><img id="nsneo-mark" src="img/zan.png" /><span>888</span><img id="nsneo-mark" src="img/shuqian.png" /><span>678</span>
+						</div>
+					</div>
+					<div class="nsneo-p-liu">
+						<div class="nsneo-p-ln">
+							<img class="pull-left" src="img/食材图层 12@2x.png" height="82px" width="127px" />
+							<p id="nsneo-p-ln-title">爱吃大蒜，但如何才能避免气味和刺激的问题？</p>
+							<p>爱吃大蒜，但大蒜刺激胃黏膜，吃完还有浓重的气味，如何才能两全其美。</p>
+							<span>08/06</span><img id="nsneo-mark" src="img/liulan.png" /><span>888</span><img id="nsneo-mark" src="img/zan.png" /><span>888</span><img id="nsneo-mark" src="img/shuqian.png" /><span>678</span>
+						</div>
+					</div>
+					<div class="nsneo-p-liu">
+						<div class="nsneo-p-ln">
+							<img class="pull-left" src="img/食材图层 12@2x.png" height="82px" width="127px" />
+							<p id="nsneo-p-ln-title">爱吃大蒜，但如何才能避免气味和刺激的问题？</p>
+							<p>爱吃大蒜，但大蒜刺激胃黏膜，吃完还有浓重的气味，如何才能两全其美。</p>
+							<span>08/06</span><img id="nsneo-mark" src="img/liulan.png" /><span>888</span><img id="nsneo-mark" src="img/zan.png" /><span>888</span><img id="nsneo-mark" src="img/shuqian.png" /><span>678</span>
+						</div>
+					</div>
+					<div class="nsneo-p-liu">
+						<div class="nsneo-p-ln">
+							<img class="pull-left" src="img/食材图层 12@2x.png" height="82px" width="127px" />
+							<p id="nsneo-p-ln-title">爱吃大蒜，但如何才能避免气味和刺激的问题？</p>
+							<p>爱吃大蒜，但大蒜刺激胃黏膜，吃完还有浓重的气味，如何才能两全其美。</p>
+							<span>08/06</span><img id="nsneo-mark" src="img/liulan.png" /><span>888</span><img id="nsneo-mark" src="img/zan.png" /><span>888</span><img id="nsneo-mark" src="img/shuqian.png" /><span>678</span>
+						</div>
+					</div>
+
+					<div class="nsneo-p-liu">
+						<div class="nsneo-p-ln">
+							<img class="pull-left" src="img/食材图层 12@2x.png" height="82px" width="127px" />
+							<p id="nsneo-p-ln-title">爱吃大蒜，但如何才能避免气味和刺激的问题？</p>
+							<p>爱吃大蒜，但大蒜刺激胃黏膜，吃完还有浓重的气味，如何才能两全其美。</p>
+							<span>08/06</span><img id="nsneo-mark" src="img/liulan.png" /><span>888</span><img id="nsneo-mark" src="img/zan.png" /><span>888</span><img id="nsneo-mark" src="img/shuqian.png" /><span>678</span>
+						</div>
+					</div>
+				</div>
+				<div class="pull-left nsneo-p-right">
+					<div class="pull-left nsneo-p-right-title">
+						<img src="" /><span>相关推荐</span>
+					</div>
+					<div class="pull-left nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div class="pull-left">
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+
+					</div>
+					<div class="pull-left nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div class="pull-left">
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+					</div>
+
+					<div class="pull-left nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div class="pull-left">
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+
+					</div>
+
+					<div class="pull-left nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div class="pull-left">
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+					</div>
+
+				</div>
+				<div class="nsneo-p-pagnation">
+					<ul class="pagination" id="ip-fenyeqi">
+						<li><span>&laquo;</span></li>
+						<li class="active"><span>1 <span class="sr-only">(current)</span></span>
+						</li>
+						<li><span>2 <span class="sr-only">(current)</span></span>
+						</li>
+						<li><span>3  <span class="sr-only">(current)</span></span>
+						</li>
+						<li><span>&raquo;</span></li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+		<!--以上是主体内容区域-->
+		<div class="nsneo-eighth-floor">
+			<ul>
+				<li>
+					<p>食品安全
+					</p>
+					<p>精选生鲜 严格质检
+					</p>
+				</li>
+				<li>
+					<p>全程冷链</p>
+					<p>自营物流 安全可控</p>
+				</li>
+				<li>
+					<p>鲜活天然</p>
+					<p>绿色生态 好货精选</p>
+				</li>
+				<li>
+					<p>产地直采</p>
+					<p>限定产源 质量保证</p>
+				</li>
+				<li>
+					<p>售后无忧</p>
+					<p>优鲜赔 售后通道</p>
+				</li>
+			</ul>
+		</div>
+		<!--以上是第八层优势介绍-->
+		<footer>
+			<div class=" nsneo-footer-logo"><img src="img/haierlogo.png" width="100%"></div>
+			<ul>
+				<li>
+					<a href="#">业务板块</a>
+				</li>
+				<li>
+					<a href="#">分享健康</a>
+				</li>
+				<li>
+					<a href="#">生态咨询</a>
+				</li>
+				<li>
+					<a href="InterNetFarm.html">互联农场</a>
+				</li>
+				<li>
+					<a href="#">个性定制</a>
+				</li>
+				<li>
+					<a href="#">行业资讯</a>
+				</li>
+				<li>
+					<a href="#">食材全景</a>
+				</li>
+				<li>
+					<a href="#">健康社群</a>
+				</li>
+				<li>
+					<a href="#">关于我们</a>
+				</li>
+			</ul>
+			<div class="nsneo-footer-con">
+				<p>联系我们</p>
+				<p> 咨询电话: 400-8888-8888</p>
+				<p>服务中心:青岛市市南区香港中路899号</p>
+			</div>
+		</footer>
+
+	</body>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script src="js/jquery_extend.js"></script>
+
+</html>

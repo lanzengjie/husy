@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>互联农场</title>
+		<link rel="stylesheet" href="css/css_initialize.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&amp;ak=oberB8G1V9dOnbyWGHx5AyLbqGsfMtu3"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&amp;ak=oberB8G1V9dOnbyWGHx5AyLbqGsfMtu3&amp;services=&amp;t=20180629105709"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+		<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css">
+		<link rel="stylesheet" href="css/InterNetFarm.css" />
+	</head>
+
+	<body>
+		<header>
+
+			<div class=" nsneo-logo"><img src="img/haierlogo.png" width="100%"></div>
+			<ul class="nsneo-nav">
+				<li>
+					<a class=" nsneo-nav-a" href="index.html">首页</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a nsneo-nav-active" href="InterNetFarm.html">互联农场</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="IngredientsPanoramic.html">食材全景</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="Personalization.html">个性定制</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="HeathyCommunity.html">健康社群</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="Information.html">行业资讯</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="AboutUs.html">关于我们</a>
+				</li>
+			</ul>
+			<div class="nsneo-header-search">
+				<img src="img/search.png" width="16px">
+				<input type="search" placeholder="搜索" />
+			</div>
+			<div class="nsneo-header-right">
+				<img src="img/person.png" width="20px" />
+				<span>登录/注册</span>
+			</div>
+		</header>
+		<!--以上是头部部分-->
+
+		<div class="nsneo-inf-map">
+			<div class="pull-left" id="map"></div>
+			<div class="pull-left nsneo-map-right">
+				<h1>金乡大蒜基地</h1>
+				<h3>地理位置</h3>
+				<p>纬度 35.000000 &nbsp;&nbsp; 经度 35.000000</p>
+				<h3>地址</h3>
+				<p>济宁金乡大蒜</p>
+				<h3>环境</h3>
+				<div class="row">
+					<div class="col-lg-4">
+						<img src="img/温度@2x.png" class="pull-left" />
+						<h4>30.5℃</h4>
+						<p>温度</p>
+					</div>
+					<div class="col-lg-4"><img src="img/湿度@2x.png" class="pull-left" />
+						<h4>73.66%</h4>
+						<p>湿度</p>
+					</div>
+					<div class="col-lg-4"><img src="img/风力@2x.png" class="pull-left" />
+						<h4>2.96m/s</h4>
+						<p>风力</p>
+					</div>
+					<div class="col-lg-4"><img src="img/风向@2x.png" class="pull-left" />
+						<h4>270</h4>
+						<p>风向</p>
+					</div>
+					<div class="col-lg-4"><img src="img/绿硒MALL@2x.png" class="pull-left" />
+						<h4>26uk</h4>
+						<p>硒含量</p>
+					</div>
+					<div class="col-lg-4"><img src="img/光照@2x.png" class="pull-left" />
+						<h4>1489.0lux</h4>
+						<p>光照</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--以上是地图部分-->
+		<div class="nsneo-dbjx">
+			<div class="nsneo-dbjx-title">
+				<div class="nsneo-dbjx-line1"></div>
+				<h1>地标精选</h1>
+				<div class="nsneo-dbjx-line2"></div>
+			</div>
+			<div class="row nsneo-dbjx-p">
+				<div class="col-lg-4">
+					<img src="img/图层 3@2x.png" />
+					<div class="pull-left">
+						<h1>阿克苏苹果</h1>
+						<p>富含丰富营养健康美味</p>
+						<span>￥78.00</span>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<img src="img/组 11@2x.png" />
+					<div class="pull-left">
+						<h1>库尔勒香梨</h1>
+						<p>富含丰富营养健康美味</p>
+						<span>￥78.00</span>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<img src="img/组 12@2x.png" />
+					<div class="pull-left">
+						<h1>库尔勒香梨</h1>
+						<p>富含丰富营养健康美味</p>
+						<span>￥78.00</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--以上是地标精选部分-->
+		<div class="nsneo-wlln">
+			<div class="nsneo-dbjx-title">
+				<div class="nsneo-dbjx-line1"></div>
+				<h1>物联理念</h1>
+				<div class="nsneo-dbjx-line2"></div>
+			</div>
+			<div class="nsneo-wlln-img">
+				<img src="img/图层 6@2x.png" width="100%" />
+			</div>
+		</div>
+		<div class="nsneo-nhyh">
+			<div class="nsneo-dbjx-title">
+				<div class="nsneo-dbjx-line1"></div>
+				<h1>农户益好</h1>
+				<div class="nsneo-dbjx-line2"></div>
+			</div>
+			<div class="nsneo-wlln-img">
+				<img src="img/图层 7@2x.png" width="100%" />
+			</div>
+		</div>
+		<div class="nsneo-czsy">
+			<div class="nsneo-dbjx-title">
+				<div class="nsneo-dbjx-line1"></div>
+				<h1>餐桌溯源</h1>
+				<div class="nsneo-dbjx-line2"></div>
+			</div>
+			<div class="nsneo-wlln-img">
+				<img src="img/图层 8@2x.png" width="100%" />
+			</div>
+		</div>
+		<div class="nsneo-eighth-floor">
+			<ul>
+				<li>
+					<p>食品安全
+					</p>
+					<p>精选生鲜 严格质检
+					</p>
+				</li>
+				<li>
+					<p>全程冷链</p>
+					<p>自营物流 安全可控</p>
+				</li>
+				<li>
+					<p>鲜活天然</p>
+					<p>绿色生态 好货精选</p>
+				</li>
+				<li>
+					<p>产地直采</p>
+					<p>限定产源 质量保证</p>
+				</li>
+				<li>
+					<p>售后无忧</p>
+					<p>优鲜赔 售后通道</p>
+				</li>
+			</ul>
+		</div>
+		<!--以上是第八层优势介绍-->
+		<footer>
+			<div class=" nsneo-footer-logo"><img src="img/haierlogo.png" width="100%"></div>
+			<ul>
+				<li>
+					<a href="#">业务板块</a>
+				</li>
+				<li>
+					<a href="#">分享健康</a>
+				</li>
+				<li>
+					<a href="#">生态咨询</a>
+				</li>
+				<li>
+					<a href="#">互联农场</a>
+				</li>
+				<li>
+					<a href="#">个性定制</a>
+				</li>
+				<li>
+					<a href="#">行业资讯</a>
+				</li>
+				<li>
+					<a href="#">食材全景</a>
+				</li>
+				<li>
+					<a href="#">健康社群</a>
+				</li>
+				<li>
+					<a href="#">关于我们</a>
+				</li>
+			</ul>
+			<div class="nsneo-footer-con">
+				<p>联系我们</p>
+				<p> 咨询电话: 400-8888-8888</p>
+				<p>服务中心:青岛市市南区香港中路899号</p>
+			</div>
+		</footer>
+
+	</body>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script src="js/jquery_extend.js"></script>
+	<script>
+		var map = new BMap.Map("map");
+		map.centerAndZoom(new BMap.Point(116.318283, 35.072888), 5); // 初始化地图,设置中心点坐标和地图级别
+		//添加地图类型控件
+		map.addControl(new BMap.MapTypeControl({
+			mapTypes: [
+				BMAP_NORMAL_MAP,
+				BMAP_HYBRID_MAP
+			]
+		}));
+		map.setCurrentCity("青岛"); // 设置地图显示的城市 此项是必须设置的
+		map.enableScrollWheelZoom(true);
+		var marker = new BMap.Marker(new BMap.Point(116.318283, 35.072888));
+		map.addOverlay(marker);
+		var opts = {
+			width: 200, // 信息窗口宽度
+			height: 50, // 信息窗口高度
+			title: " 金乡大蒜基地", // 信息窗口标题
+			enableMessage: true, //设置允许信息窗发送短息
+			message: "欢迎随时联系， 戳下面的链接看下地址喔~"
+		}
+		var infoWindow = new BMap.InfoWindow("济宁金乡大蒜", opts); // 创建信息窗口对象
+
+		map.openInfoWindow(infoWindow, new BMap.Point(116.318283, 35.072888)); //开启信息窗口
+		marker.addEventListener("click", function() {
+			map.openInfoWindow(infoWindow, new BMap.Point(116.318283, 35.072888)); //开启信息窗口
+		});
+	</script>
+
+</html>

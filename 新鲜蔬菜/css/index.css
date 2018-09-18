@@ -1,0 +1,752 @@
+	header {
+		width: 100%;
+		height: 58px;
+		background: rgba(56, 63, 76, 1);
+		position: fixed;
+		top: 0;
+		z-index: 1000;
+	}
+	
+	.nsneo-logo {
+		width: 166px;
+		height: 25px;
+		position: absolute;
+		top: 21px;
+		left: ;
+		margin-left: 6%;
+	}
+	
+	.nsneo-logo img {
+		margin-top: -12px;
+	}
+	
+	.nsneo-nav {
+		height: 100%;
+		width: 50%;
+		position: absolute;
+		top: 0;
+		margin-left: 24%;
+	}
+	
+	.nsneo-nav li {
+		height: 100%;
+		width: 13%;
+		float: left;
+	}
+	
+	.nsneo-nav-a {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		font-size: 12px;
+		font-family: SourceHanSansCN-Regular;
+		line-height: 58px;
+		color: white;
+	}
+	
+	.nsneo-nav li a:hover {
+		color: rgba(89, 193, 101, 1);
+		background-color: rgba(56, 63, 76, 1);
+		text-decoration: none;
+		transition: all 0.5s linear;
+	}
+	
+	.nsneo-nav-active {
+		color: rgba(89, 193, 101, 1);
+		line-height: 58px;
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		font-size: 12px;
+		font-family: SourceHanSansCN-Regular;
+	}
+	
+	header input {
+		height: 100%;
+		width: 100%;
+		font-size: 12px;
+		position: absolute;
+		border: none;
+		padding: 5px;
+	}
+	
+	.nsneo-header-search {
+		height: 44.3%;
+		width: 137px;
+		background-color: white;
+		position: absolute;
+		top: 17px;
+		left: 75%;
+	}
+	
+	.nsneo-header-search img {
+		position: absolute;
+		left: 87%;
+		top: 5px;
+		z-index: 10;
+	}
+	
+	.nsneo-header-right {
+		height: 100%;
+		color: white;
+		position: absolute;
+		left: 90%;
+		line-height: 59px;
+	}
+	
+	.nsneo-header-right img {
+		position: relative;
+		top: -2px;
+	}
+	
+	.new {
+		width: 100%;
+		height: 395px;
+		border: solid 1px silver;
+	}
+	
+	.nsneo-a1-container {
+		width: 100%;
+		height: 100%;
+		border: solid 1px #E5E5E5;
+	}
+	
+	.nsneo-a1-container:hover {
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+		transition: all 0.3s linear;
+	}
+	
+	.nsneo-lunbo {
+		position: relative;
+		top: 37px;
+	}
+	
+	.nsneo-third-floor {
+		width: 100%;
+		height: 440px;
+		margin-top: 37px;
+	}
+	
+	.nsneo-third-floor-title {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		padding: 27px;
+	}
+	
+	.nsneo-third-floor-title1 {
+		font-size: 15px;
+		color: rgba(41, 41, 41, 1);
+	}
+	
+	.nsneo-third-floor-title2 {
+		font-size: 20px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(90, 198, 101, 1);
+	}
+	
+	.nsneo-third-floor-title3 {
+		font-size: 12px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(102, 102, 102, 1);
+	}
+	
+	.nsneo-third-floor-lunbo {
+		width: 62.5%;
+		height: 288px;
+	}
+	
+	.nsneo-third-floor-lunbo .swiper-slide {
+		width: 100%;
+		height: 85%;
+		padding-left: 5px;
+		padding-right: 5px;
+		margin: 0;
+	}
+	
+	.nsneo-third-floor-lunbo .swiper-slide>div {
+		height: 100%;
+	}
+	
+	.nsneo-a1-bgimg {
+		width: 100%;
+		height: 71%;
+	}
+	
+	.nsneo-a1-bgimg:hover .nsneo-a11 {
+		display: block;
+	}
+	
+	.nsneo-a11 {
+		display: none;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	
+	.nsneo-a11 .btn-danger {
+		width: 32%;
+		position: absolute;
+		left: 35%;
+		top: 19%;
+	}
+	
+	.nsneo-a11 .btn-success {
+		width: 32%;
+		text-align: center;
+		position: absolute;
+		left: 35%;
+		top: 40%;
+	}
+	
+	.nsneo-a12 p {
+		display: inline;
+		font-size: 11px;
+		color: #999999;
+		margin-left: 5%;
+	}
+	
+	.nsneo-a12 h1 {
+		display: inline;
+		font-size: 16px;
+		font-weight: 600;
+	}
+	
+	.nsneo-a12 span {
+		font-size: 16px;
+		display: inline-block;
+		text-align: right;
+		color: #5ac665;
+		position: absolute;
+		right: 5px;
+	}
+	
+	.nsneo-a12 {
+		width: 100%;
+		position: relative;
+		top: 10px;
+		padding: 5px;
+	}
+	
+	.nsneo-forth-floor {
+		width: 100%;
+		height: 390px;
+		background: rgba(245, 247, 245, 1);
+	}
+	
+	.nsneo-forth-floor-content {
+		width: 62.5%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	
+	.nsneo-forth-floor-content p {
+		padding-top: 25px;
+		margin-bottom: 0;
+		font-size: 15px;
+		color: rgba(41, 41, 41, 1);
+	}
+	
+	.nsneo-forth-floor-title2 {
+		font-size: 20px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(90, 198, 101, 1);
+	}
+	
+	.nsneo-forth-floor-title3 {
+		font-size: 12px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(102, 102, 102, 1);
+		padding-left: 15px;
+	}
+	
+	.nsneo-forth-floor-pic {
+		width: 100%;
+		height: 242px;
+		margin-top: 25px;
+	}
+	
+	.nsneo-forth-floor-pic-left {
+		height: 100%;
+		width: 24%;
+		float: left;
+		margin-right: 5px;
+		background-image: url(http://nsneo-test.dev.cosmoplat.com/resources/staticRes/haier/upload/imgs/f43e73ff-3d0a-40ff-a4f9-726d0ff8bd7b.jpg);
+		background-size: cover;
+		cursor: pointer;
+	}
+	
+	.nsneo-forth-floor-pic-right {
+		height: 100%;
+		width: 75%;
+		float: left;
+	}
+	
+	.nsneo-forth-floor-row1 {
+		width: 100%;
+		height: 49%;
+		margin: 0;
+	}
+	
+	.nsneo-forth-floor-row1>div {
+		height: 100%;
+		padding-right: 0;
+		padding-left: 10px;
+		margin-bottom: 8px;
+		cursor: pointer;
+	}
+	
+	.nsneo-forth-floor-row1>div>div:hover {
+		border-color: red;
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+		transition: all 0.3s linear;
+	}
+	
+	.nsneo-forth-floor-project {
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+	
+	.nsneo-forth-floor-project span {
+		color: #64C96F;
+	}
+	
+	.nsneo-forth-floor-project h1 {
+		color: #424242;
+		font-size: 14px;
+		margin: 0;
+	}
+	
+	.nsneo-forth-floor-pl {
+		width: 50%;
+		height: 100%;
+		padding-top: 30px;
+		padding-left: 11px;
+	}
+	
+	.nsneo-forth-floor-pl p {
+		padding-top: 10px;
+		font-size: 12px;
+	}
+	
+	.nsneo-forth-floor-pr {
+		height: 100%;
+		width: 50%;
+	}
+	
+	.nsneo-forth-floor-pr img {
+		height: 75%;
+		width: 95%;
+		margin-top: 14px;
+	}
+	
+	.nsneo-forth-floor-row2 {
+		width: 100%;
+		height: 49.5%;
+		margin: 0;
+	}
+	
+	.nsneo-forth-floor-row2>div {
+		height: 100%;
+		padding-right: 0;
+		padding-left: 10px;
+	}
+	
+	.nsneo-fifth-floor {
+		width: 100%;
+		height: 330px;
+	}
+	
+	.nsneo-fifth-floor-title {
+		text-align: center;
+		font-size: 16px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(90, 198, 101, 1);
+		line-height: 48px;
+		margin-top: 12px;
+		margin-bottom: 0;
+	}
+	
+	.nsneo-fifth-floor-line {
+		width: 39px;
+		height: 2px;
+		background-color: rgba(90, 198, 101, 1);
+		margin: 2px auto;
+	}
+	
+	.nsneo-fifth-floor-content {
+		width: 100%;
+		height: 59px;
+		font-size: 11px;
+		line-height: 16px;
+		padding: 0;
+		margin-top: 15px;
+	}
+	
+	.nsneo-fifth-floor-content>p {
+		text-align: center;
+		margin: 0;
+	}
+	
+	.nsneo-fifth-floor-button {
+		width: 45px;
+		height: 45px;
+		margin: 36px auto;
+		margin-bottom: 0;
+		cursor: pointer;
+	}
+	
+	.nsneo-fifth-floor-vname {
+		font-size: 12px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(90, 198, 101, 1);
+		line-height: 32px;
+		text-align: center;
+	}
+	
+	.nsneo-sixth-floor {
+		width: 100%;
+		height: 338px;
+		padding-top: 122px;
+		background-color: darkgreen;
+	}
+	
+	.nsneo-fifth-floor-corn {
+		width: 32%;
+		height: 140px;
+		position: absolute;
+		left: 34%;
+	}
+	
+	.nsneo-fifth-floor-corn>div {
+		position: absolute;
+		width: 49%;
+		height: 100px;
+		top: 20px;
+		background-color: white;
+		border: solid 1px silver;
+	}
+	
+	.nsneo-fifth-floor-corn>div:hover {
+		transform: translateY(-10px);
+		box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+		transition: all 0.3s linear;
+	}
+	
+	.nsneo-fifth-floor-corn>div:hover h1 {
+		color: #5AC665;
+	}
+	
+	.nsneo-fifth-floor-corn-ll {
+		width: 65%;
+		height: 100%;
+		margin-left: 10px;
+	}
+	
+	.nsneo-fifth-floor-corn-ll h1 {
+		width: 100%;
+		height: 13px;
+		font-size: 13px;
+		line-height: 16px;
+		font-weight: 600;
+		color: #424242;
+	}
+	
+	.nsneo-fifth-floor-corn-ll p {
+		width: 100%;
+		color: #999999;
+		font-size: 10px;
+		line-height: 16px;
+		margin: 0;
+	}
+	
+	.nsneo-fifth-floor-corn-lr {
+		width: 65px;
+		height: 65px;
+		position: absolute;
+		right: 0;
+		top: 18px;
+		background-image: url(http://nsneo-test.dev.cosmoplat.com/resources/staticRes/haier/upload/imgs/f43e73ff-3d0a-40ff-a4f9-726d0ff8bd7b.jpg);
+		background-size: cover;
+	}
+	
+	.nsneo-fifth-floor-corn-right {
+		left: 50%;
+	}
+	
+	.nsneo-sixth-floor-title {
+		height: 22px;
+		font-size: 22px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(255, 255, 255, 1);
+		line-height: 22px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	
+	.nsneo-sixth-floor-line {
+		width: 39px;
+		height: 2px;
+		background-color: rgba(90, 198, 101, 1);
+		margin: 17px auto;
+	}
+	
+	.nsneo-sixth-floor-content {
+		height: 16px;
+		font-size: 16px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(255, 255, 255, 1);
+		line-height: 16px;
+		text-align: center;
+	}
+	
+	.nsneo-sixth-floor-button {
+		width: 10%;
+		height: 38px;
+		background: rgba(90, 198, 101, 1);
+		margin: 40px auto;
+		cursor: pointer;
+	}
+	
+	.nsneo-sixth-floor-button>p {
+		font-size: 13px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(255, 255, 255, 1);
+		line-height: 38px;
+		text-align: center;
+	}
+	
+	.nsneo-seventh-floor {
+		width: 100%;
+		height: 480px;
+	}
+	
+	.nsneo-seventh-floor-pic {
+		height: 322px;
+		margin-top: 10px;
+		width: 100%;
+	}
+	
+	.nsneo-seventh-floor-pic>div {
+		width: 48%;
+		height: 100%;
+		float: left;
+	}
+	
+	.nsneo-sfp-l1 {
+		width: 100%;
+		height: 100%;
+		background-image: url(http://nsneo-test.dev.cosmoplat.com/resources/staticRes/haier/upload/imgs/f43e73ff-3d0a-40ff-a4f9-726d0ff8bd7b.jpg);
+		background-size: cover;
+		cursor: pointer;
+	}
+	
+	.nsneo-sfp-l2 {
+		width: 100%;
+		height: 0;
+		opacity: 0;
+		padding-top: 8px;
+		background-color: #5AC665;
+		position: relative;
+		bottom: 20%;
+		cursor: pointer;
+		overflow: hidden;
+	}
+	
+	.nsneo-sfp-l:hover .nsneo-sfp-l2 {
+		height: 20%;
+		opacity: 1;
+		transition: all 0.5s;
+	}
+	
+	.nsneo-sfp-l2>p {
+		margin: 0;
+		padding: 0;
+		height: 24px;
+		font-size: 11px;
+		font-family: SourceHanSansCN-Regular;
+		color: rgba(255, 255, 255, 1);
+		line-height: 24px;
+		padding-left: 18px;
+	}
+	
+	.nsneo-sfl-date {
+		color: white;
+		line-height: 24px;
+		font-size: 11px;
+		height: 11px;
+		position: absolute;
+		top: 8px;
+		right: 13px;
+	}
+	
+	.nsneo-sfp-r ul {
+		margin: 0;
+	}
+	
+	.nsneo-sfp-r li {
+		width: 100%;
+		height: 74px;
+		color: black;
+	}
+	
+	.nsneo-sfp-r li:nth-child(odd) {
+		background-color: #F7F7F7;
+	}
+	
+	.nsneo-sfp-r li:hover {
+		background-color: #5AC665;
+		color: white;
+		/*transition: all 0.5s linear;*/
+	}
+	
+	.nsneo-sfr-day {
+		width: 15%;
+		font-size: 30px;
+		font-family: SourceHanSansCN-Regular;
+		line-height: 74px;
+		margin-left: -10px;
+		text-align: right;
+	}
+	
+	.nsneo-sfp-r li>div {
+		display: inline-block;
+	}
+	
+	.nsneo-sfr-date {
+		width: 10%;
+		height: 100%;
+		font-size: 10px;
+		line-height: 20px;
+		padding-top: 15px;
+	}
+	
+	.nsneo-sfr-date>p {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.nsneo-point {
+		width: 0;
+		height: 0;
+		border: solid 2px black;
+		border-radius: 50%;
+		margin: 0 auto;
+	}
+	
+	.nsneo-sfp-rr {
+		width: 75%;
+		height: 100%;
+	}
+	
+	.nsneo-sfp-rr p {
+		height: 20px;
+		font-size: 12px;
+		line-height: 24px;
+		padding-left: 20px;
+		padding-top: 15px;
+	}
+	
+	.nsneo-sfr-page {
+		width: 100%;
+		height: 8%;
+		text-align: center;
+		cursor: pointer;
+	}
+	
+	.nsneo-sfr-prev {
+		width: 50%;
+		height: 100%;
+		background-color: #F7F7F7;
+		line-height: 25px;
+	}
+	
+	.nsneo-sfr-next {
+		width: 50%;
+		height: 100%;
+		background-color: #EBEBEB;
+		line-height: 25px;
+	}
+	
+	.nsneo-eighth-floor {
+		width: 100%;
+		height: 96px;
+		background-color: #5AC665;
+	}
+	
+	.nsneo-eighth-floor>ul {
+		margin: 0;
+		width: 62.5%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	
+	.nsneo-eighth-floor ul li {
+		width: 20%;
+		height: 100%;
+		color: white;
+		float: left;
+	}
+	
+	.nsneo-eighth-floor ul li p {
+		height: 12px;
+		font-size: 12px;
+		line-height: 32px;
+		padding-top: 11%;
+	}
+	
+	footer {
+		width: 100%;
+		height: 220px;
+		position: relative;
+		background-color: #383F4C;
+	}
+	
+	.nsneo-footer-logo {
+		width: 15.7%;
+		height: 8%;
+		position: absolute;
+		top: 24%;
+		left: 24.7%;
+	}
+	
+	.nsneo-footer-logo img {
+		margin-top: -10px;
+		margin-left: -8px;
+	}
+	
+	footer ul {
+		width: 16%;
+		height: 8%;
+		position: absolute;
+		top: 47%;
+		left: 25%;
+	}
+	
+	footer ul li {
+		width: 33%;
+		height: 24px;
+		float: left;
+	}
+	
+	footer ul li a {
+		width: 100%;
+		height: 24px;
+		line-height: 24px;
+		font-size: 12px;
+		color: white;
+	}
+	
+	.nsneo-footer-con {
+		color: white;
+		font-size: 12px;
+		line-height: 14px;
+		position: absolute;
+		top: 48%;
+		left: 45%;
+		padding-top: 3px;
+	}

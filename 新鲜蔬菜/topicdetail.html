@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.nsneo-tdetail-nav {
+				width: 100%;
+				height: 37px;
+				background: rgba(230, 230, 230, 1);
+			}
+			
+			.nsneo-tdetail-location {
+				width: 62.5%;
+				height: 100%;
+				margin: 0 auto;
+				font-weight: 400;
+				color: rgba(102, 102, 102, 1);
+				font-size: 13px;
+				line-height: 37px;
+			}
+			
+			.nsneo-tdetail-body {
+				width: 100%;
+				padding-bottom: 50px;
+				overflow-y: scroll;
+				background-color: #F7F7F7;
+			}
+			
+			.nsneo-tdetail-content {
+				width: 62.5%;
+				margin: 0 auto;
+				padding-top: 14px;
+			}
+			
+			.nsneo-tdetail-left {
+				width: 70%;
+				float: left;
+				position: relative;
+			}
+			
+			.nsneo-tdetail-right {
+				width: 28%;
+				height: 435px;
+				margin-left: 15px;
+				background-color: white;
+				float: left;
+			}
+			
+			.nsneo-tdetail-topic {
+				width: 100%;
+				padding-left: 10px;
+				background-color: white;
+				box-sizing: border-box;
+			}
+			
+			.nsneo-tdetail-topic h1 {
+				font-size: 16px;
+				color: #333333;
+				margin-bottom: 0;
+				margin-top: 0;
+				padding-top: 10px;
+			}
+			
+			.nsneo-tdetail-topic-src {
+				height: 22px;
+				font-size: 10px;
+				color: #9A9A9A;
+				line-height: 22px;
+				position: relative;
+			}
+			
+			.nsneo-tdetail-topic-src>img {
+				width: 22px;
+				height: 22px;
+				vertical-align: middle;
+				margin-top: 0;
+			}
+			
+			.nsneo-tdetail-topic-cotent {
+				width: 87%;
+				font-size: 11px;
+				color: #656565;
+				line-height: 20px;
+				white-space: normal;
+				word-break: break-all;
+				margin-bottom: 0;
+				margin-top: 0;
+			}
+			
+			.nsneo-tdetail-topic>img {
+				width: 75%;
+				height: 271px;
+				margin: 20px 34px;
+			}
+			
+			.nsneo-tdetail-comments {
+				width: 100%;
+				background-color: white;
+				padding-top: 5px;
+				padding-bottom: 5px;
+				padding-left: 10px;
+				padding-left: 10px;
+				box-sizing: border-box;
+			}
+			
+			.nsneo-tdetail-ct {
+				font-size: 13px;
+				font-weight: 700;
+				color: #333333;
+				margin-left: 8px;
+				position: relative;
+				top: 4px;
+			}
+			
+			.nsneo-tdetail-cd {
+				position: absolute;
+				right: 16px;
+				top: 4px;
+			}
+			
+			.nsneo-tdetail-cc {
+				width: 80%;
+				margin-left: 30px;
+				font-size: 11px;
+				line-height: 20px;
+			}
+			
+			.nsneo-tdetail-comments hr{
+				width: 93%;
+				margin-left: 10px;
+				color: #EBEBEB;
+			}
+			.nsneo-tdetail-go{
+				width: 100%;
+			}
+			.nsneo-tdetail-go>textarea{
+				width: 100%;
+				height: 130px;
+				resize: none;
+			}
+				.nsneo-p-right-list {
+				margin-top: 20px;
+				margin-left: 10px;
+				width: 100%;
+    			height: 60px;
+			}
+			
+			.nsneo-p-right-list>img {
+				width: 55px;
+				float: left;
+				clear: both;
+			}
+			
+			.nsneo-p-right-list>div {
+				margin-left: 10px;
+				height: 100%;
+				float: left;
+			}
+			
+			.nsneo-p-right-list h1 {
+				font-size: 13px;
+				height: 13px;
+				margin-left: 0;
+				padding: 0;
+				margin-top: 10px;
+				margin-bottom: 4px;
+			}
+			
+			.nsneo-p-right-list p {
+				font-size: 11px;
+				color: #999999;
+			}
+			
+			.nsneo-p-right-list span {
+				color: #be0000;
+				font-size: 13px;
+				position: relative;
+				top: -10px;
+			}
+			
+			.nsneo-p-right-title {
+				width: 100%;
+				margin-top: 10px;
+				margin-left: 5px;
+			}
+			
+			.nsneo-p-right-title span {
+				font-size: 13px;
+				margin-top: 14px;
+				color: #343434;
+				font-family: "黑体";
+			}
+			.nsneo-mark{
+				height: 11px;
+				margin-left: 2px;
+				margin-right: 5px;
+			}
+			#nsneo-mark{
+				    font-size: 12px;
+    				color: #c7c7c7;
+    				position: absolute;
+    				right:30px;
+    				top: 17px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="nsneo-tdetail-nav">
+			<div class="nsneo-tdetail-location">
+				<span>首页</span> > <span>健康社群</span> > <span>话题列表</span> > <span>话题详情页</span>
+			</div>
+		</div>
+		<div class="nsneo-tdetail-body">
+			<div class="nsneo-tdetail-content">
+				<div class="nsneo-tdetail-left">
+					<div class="nsneo-tdetail-topic">
+						<h1>吃荔枝不上火的小窍门</h1>  
+						<div id="nsneo-mark">
+							<img class="nsneo-mark" src="img/liulan.png" ><span>888</span><img class="nsneo-mark" src="img/zan.png"><span>888</span><img class="nsneo-mark" src="img/shuqian.png"><span>678</span>
+						</div>
+						<p class="nsneo-tdetail-topic-src"><img src="img/图层 3@2x.png" width="22px" height="22px"> 小CO</span><span>发表于2018-06-20 14:33:51221282</span></p>
+						<p class="nsneo-tdetail-topic-cotent">吃荔枝易上火，有什么办法可以又解馋又可以不上火呢？可以告诉大家一个小窍门，在吃荔枝前后 适当喝点盐水、凉茶或绿豆汤，或者把新鲜荔枝去皮浸入淡盐水中，放入冰柜里冰后食用。这样可 防虚火，还具有醒脾消滞的功效。用荔枝壳煎水喝，也能解荔枝热。
+						</p>
+						<p class="nsneo-tdetail-topic-cotent">
+							吃荔枝易上火，有什么办法可以又解馋又可以不上火呢？可以告诉大家一个小窍门，在吃荔枝前后 适当喝点盐水、凉茶或绿豆汤，或者把新鲜荔枝去皮浸入淡盐水中，
+						</p>
+						<img src="img/食材图层 7@2x.png" />
+					</div>
+					<h4>所有评论</h4>
+					<div class="nsneo-tdetail-comments">
+						<div>
+							<p class="nsneo-tdetail-topic-src"><img src="img/图层 3@2x.png"><span class="nsneo-tdetail-ct">玉米很甜</span><span class="nsneo-tdetail-cd">2018-06-22 11:53:48</span></p>
+							<p class="nsneo-tdetail-cc">吃荔枝易上火，有什么办法可以又解馋又可以不上火呢？<br/> 可以告诉大家一个小窍门，在吃荔枝前后适当喝点盐水、凉茶或绿豆汤，或者把新鲜荔
+							</p>
+						</div>
+						<div>
+							<p class="nsneo-tdetail-topic-src"><img src="img/图层 3@2x.png"><span class="nsneo-tdetail-ct">玉米很甜</span><span class="nsneo-tdetail-cd">2018-06-22 11:53:48</span></p>
+							<p class="nsneo-tdetail-cc">吃荔枝易上火，有什么办法可以又解馋又可以不上火呢？<br/> 可以告诉大家一个小窍门，在吃荔枝前后适当喝点盐水、凉茶或绿豆汤，或者把新鲜荔
+							</p>
+						</div>
+						<div>
+							<p class="nsneo-tdetail-topic-src"><img src="img/图层 3@2x.png"><span class="nsneo-tdetail-ct">玉米很甜</span><span class="nsneo-tdetail-cd">2018-06-22 11:53:48</span></p>
+							<p class="nsneo-tdetail-cc">吃荔枝易上火，有什么办法可以又解馋又可以不上火呢？<br/> 可以告诉大家一个小窍门，在吃荔枝前后适当喝点盐水、凉茶或绿豆汤，或者把新鲜荔
+							</p>
+						</div>
+						<div>
+							<p class="nsneo-tdetail-topic-src"><img src="img/图层 3@2x.png"><span class="nsneo-tdetail-ct">玉米很甜</span><span class="nsneo-tdetail-cd">2018-06-22 11:53:48</span></p>
+							<p class="nsneo-tdetail-cc">吃荔枝易上火，有什么办法可以又解馋又可以不上火呢？<br/> 可以告诉大家一个小窍门，在吃荔枝前后适当喝点盐水、凉茶或绿豆汤，或者把新鲜荔
+							</p>
+						</div>
+					</div>
+					<h4>去评论</h4>
+					<div class="nsneo-tdetail-go">
+						<textarea></textarea>
+						<div><input type="checkbox" name="hideName"><span>匿名</span><button></button></div>
+					</div>
+				</div>
+				<div class="nsneo-tdetail-right">
+					<div class=" nsneo-p-right-title">
+						<img src="img/shuqian.png" width="12px" /><span>相关推荐</span>
+					</div>
+					<div class=" nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div class="">
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+					</div>
+					<div class=" nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div >
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+					</div>
+					<div class=" nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div >
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+
+					</div>
+					<div class=" nsneo-p-right-list">
+						<img src="img/组 11@2x.png" />
+						<div>
+							<h1>库尔勒香梨</h1>
+							<p>富含丰富营养健康美味</p>
+							<span>￥78.00</span>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

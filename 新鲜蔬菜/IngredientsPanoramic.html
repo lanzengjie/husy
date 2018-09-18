@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/css_initialize.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/nivo-slider.css" />
+		<link rel="stylesheet" href="css/default.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<style>
+			.nsneo-ip{
+				width: 100%;
+				height: 395px;
+			}
+			.nsneo-ip-nav{
+				width: 100%;
+				height: 125px;
+			}
+			.nsneo-ip-fenlei{
+				height: 100%;
+				margin-left: 1em;
+			}
+			.nsneo-ip-fenlei li{
+				float: left;
+				height: 100%;
+				line-height: 2em;
+				padding-left:1em ;
+				padding-right: 1em;
+				cursor: pointer;
+				
+				
+			}
+			.nsneo-ip-fenlei li:hover{
+				color: #5AC665;
+				transition: all 0.2s ease;
+			}
+			.nsneo-ip-fenlei-active{
+				color: #5AC665;
+				border-bottom: solid 1px #5AC665;
+			}
+			.nsneo-ip-nav1{
+				width: 62.5%;
+				height: 2em;
+				margin: 2em auto;
+				
+			}
+			.nsneo-ip-navt{
+				margin-left: 5px;
+				height: 100%;
+				line-height: 2em;
+			}
+			.nsneo-ip-sf{
+				width: 100%;
+				height: 825px;
+				margin-top: 32px;
+			}
+			.nsneo-ip-projects{
+				width: 65%;
+				height:265px;
+				margin: 0 auto;	
+			}
+			.nsneo-ip-single{
+				padding-left: 0;
+				margin-bottom: 10px;
+				height: 100%;
+				
+			}
+			#nsneo-ip-img{
+				width: 100%;
+				height: 61%;
+			}
+			.nsneo-sale{
+    font-size: 11px;
+    color: #999999;
+    margin-left: 5px;
+    margin-top: 6px;
+    margin-bottom: 0;
+			}
+			.nsneo-ip-pagnation{
+				width: 100%;
+				display: flex;
+				justify-content: space-around;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+
+			<div class=" nsneo-logo"><img src="img/haierlogo.png" width="100%"></div>
+			<ul class="nsneo-nav">
+				<li>
+					<a class=" nsneo-nav-a" href="index.html">首页</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="InterNetFarm.html">互联农场</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a nsneo-nav-active" href="IngredientsPanoramic.html">食材全景</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="Personalization.html">个性定制</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="HeathyCommunity.html">健康社群</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="Information.html">行业资讯</a>
+				</li>
+				<li>
+					<a class="nsneo-nav-a" href="AboutUs.html">关于我们</a>
+				</li>
+			</ul>
+			<div class="nsneo-header-search">
+				<img src="img/search.png" width="16px">
+				<input type="search" placeholder="搜索" />
+			</div>
+			<div class="nsneo-header-right">
+				<img src="img/person.png" width="20px" />
+				<span>登录/注册</span>
+			</div>
+		</header>
+		<!--以上是头部部分-->
+		<div class="nsneo-ip">
+				<img src="img/图层 4@2x.png" width="100%" height="100%">
+		</div>
+		<div class="nsneo-ip-nav">
+			<div class="nsneo-ip-nav1">
+				<div class="pull-left nsneo-ip-navt">分类筛选：</div>
+			<ul class="pull-left nsneo-ip-fenlei " id="nsneo-flsx">
+			<li class="nsneo-ip-fenlei-active">全部</li>
+			<li>地标食材</li>
+			<li>新鲜果蔬</li>
+			<li>五谷杂粮</li>
+			<li>加工制品</li>
+			</ul>
+			</div>
+				<div class="nsneo-ip-nav1">
+					<div class="pull-left nsneo-ip-navt">综合排序：</div>
+				<ul class="pull-left nsneo-ip-fenlei " id="nsneo-zhpx">
+				<li>销量</li>
+				<li class="nsneo-ip-fenlei-active">人气</li>
+				<li>单价</li>
+				</ul>
+				</div>
+		</div>
+		
+      <!--以上是导航栏部分-->
+      <div class="nsneo-ip-sf">
+       <div class="row nsneo-ip-projects">
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	<div class="col-lg-4 col-xs-1 col-sm-2 nsneo-ip-single">
+        		<img id="nsneo-ip-img" src="img/食材图层 11@2x.png" />
+        		<div class="nsneo-a12">
+					<h1>黑蒜</h1><span>￥31.7</span>
+				</div>
+        		<p class="nsneo-sale">销量：99</p>
+        		<p class="nsneo-sale">安丘农业农耕发展站有限公司</p>
+        		<div style="padding-left: 5px;">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+					<img src="img/yellowStar.png" width="13px">
+				</div>
+        	</div>
+        	</div>
+        </div>
+      <!--以上是商品展示部分-->
+      <div class="nsneo-ip-pagnation">
+      	<ul class="pagination" id="ip-fenyeqi">
+  <li><span>&laquo;</span></li>
+  <li class="active"><span>1 <span class="sr-only">(current)</span></span></li>
+  <li ><span>2 <span class="sr-only">(current)</span></span></li>
+  <li ><span>3  <span class="sr-only">(current)</span></span></li>
+  <li ><span>&raquo;</span></li>
+</ul>
+      </div>
+<div class="nsneo-eighth-floor">
+			<ul>
+				<li>
+					<p>食品安全
+					</p>
+					<p>精选生鲜 严格质检
+					</p>
+				</li>
+				<li>
+					<p>全程冷链</p>
+					<p>自营物流 安全可控</p>
+				</li>
+				<li>
+					<p>鲜活天然</p>
+					<p>绿色生态 好货精选</p>
+				</li>
+				<li>
+					<p>产地直采</p>
+					<p>限定产源 质量保证</p>
+				</li>
+				<li>
+					<p>售后无忧</p>
+					<p>优鲜赔 售后通道</p>
+				</li>
+			</ul>
+		</div>
+		<!--以上是第八层优势介绍-->
+		<footer>
+			<div class=" nsneo-footer-logo"><img src="img/haierlogo.png" width="100%"></div>
+			<ul>
+				<li>
+					<a href="#">业务板块</a>
+				</li>
+				<li>
+					<a href="#">分享健康</a>
+				</li>
+				<li>
+					<a href="#">生态咨询</a>
+				</li>
+				<li>
+					<a href="InterNetFarm.html">互联农场</a>
+				</li>
+				<li>
+					<a href="#">个性定制</a>
+				</li>
+				<li>
+					<a href="#">行业资讯</a>
+				</li>
+				<li>
+					<a href="#">食材全景</a>
+				</li>
+				<li>
+					<a href="#">健康社群</a>
+				</li>
+				<li>
+					<a href="#">关于我们</a>
+				</li>
+			</ul>
+			<div class="nsneo-footer-con">
+				<p>联系我们</p>
+				<p> 咨询电话: 400-8888-8888</p>
+				<p>服务中心:青岛市市南区香港中路899号</p>
+			</div>
+		</footer>
+	</body>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<script src="js/jquery.nivo.slider.js"></script>
+	<script src="js/jquery_extend.js"></script>
+	<script>
+		
+			$('#slider').nivoSlider();
+		
+	</script>
+	<script>
+			$("#nsneo-flsx li").click(
+				function(){
+				$("#nsneo-flsx li").removeClass("nsneo-ip-fenlei-active");
+				$(this).addClass("nsneo-ip-fenlei-active");
+				console.log($(this).text());
+			}
+			)
+			
+			$("#nsneo-zhpx li").click(
+				function(){
+				$("#nsneo-zhpx li").removeClass("nsneo-ip-fenlei-active");
+				$(this).addClass("nsneo-ip-fenlei-active");
+				console.log($(this).text());
+			}
+			)
+			
+		</script>
+</html>
