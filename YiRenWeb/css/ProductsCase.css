@@ -1,0 +1,140 @@
+.pbanner{
+				background-image: url(../img/ProductsCase/广告@2x.png);
+				background-size: cover;
+			}
+			.sf1-title{
+				width: 100%;
+				height: 100px;
+				text-align: center;
+				margin-top: 80px;
+			}
+			.sf1-title h1{
+				height: 40px;
+				line-height: 40px;
+				font-size: 30px;
+				font-weight: 500;
+				color: #333333;
+				margin: 0;
+			}
+			.sf1-title hr{
+				width:90px;
+				height:3px;
+				margin-top: 18px;
+				background-color: #4FD2AB;
+				border: none;
+			}
+			.sf1-title p{
+				height:19px;
+				font-size:14px;
+				color:#999999;
+				line-height:19px;
+			}
+			.p-case{
+				width: 100%;
+				min-width: 1200px;
+				/*height: 1800px;*/
+			}
+			.p-content{
+				width: 1200px;
+				height: 100%;
+				margin: 0 auto;
+			}
+			.p-content ul{
+				width: 250px;
+				height:17px;
+				font-size:13px;
+				color:#333333;
+				line-height:17px;
+				margin: 60px auto;
+				padding: 0;
+				display: flex;
+				justify-content: space-between;
+				list-style: none;
+			}
+			.p-content ul li:hover{
+				cursor: pointer;
+			}
+			.li-active{
+				color: #4FD2AB;
+			}
+			.pcases{
+				width: 100%;
+				/*height: 1280px;*/
+				margin-top: 75px;
+				display: flex;
+				justify-content:flex-start;
+				align-content: space-between;
+				flex-wrap: wrap;
+			}
+			.p-box{
+				width: 386px;
+				height: 418px;
+				background-size: cover;
+				margin-left: 14px;
+				margin-bottom: 14px;
+				cursor: pointer;
+			}
+			.p-box:hover .p-dialog{
+				display: inline-block;
+			}
+			.p-1{background-image: url(../img/ProductsCase/Bitmap1@2x.png);}
+			.p-2{background-image: url(../img/ProductsCase/Bitmap2@2x.png);}
+			.p-3{background-image: url(../img/ProductsCase/Bitmap3@2x.png);}
+			.p-4{background-image: url(../img/ProductsCase/Bitmap4@2x.png);}
+			.p-5{background-image: url(../img/ProductsCase/Bitmap5@2x.png);}
+			.p-6{background-image: url(../img/ProductsCase/Bitmap6@2x.png);}
+			.p-7{background-image: url(../img/ProductsCase/Bitmap7@2x.png);}
+			.p-8{background-image: url(../img/ProductsCase/Bitmap8@2x.png);}
+			.p-9{background-image: url(../img/ProductsCase/Bitmap@2x.png);}
+			.p-dialog{
+				width: 100%;
+				height: 100%;
+				color: white;
+				background-color: rgba(0,0,0,0.5);
+				padding-top:75px ;
+				box-sizing: border-box;
+				display: none;
+			}
+			.p-circle{
+				width: 80px;
+				height: 80px;
+				background-color: #000000;
+				border-radius: 50%;
+				background-image: url(../img/ProductsCase/搜索@2x.png);
+				background-position: center;
+				background-repeat: no-repeat;
+				margin: 0 auto;
+			}
+			.p-dialog h3{
+				margin: 0;
+				height:26px;
+				font-size:20px;
+				font-weight:bold;
+				line-height:26px;
+				letter-spacing:2px;
+				margin-top: 64px;
+				text-align: center;
+			}
+			.p-dialog p{
+				width:274px;
+				height:93px;
+				font-size:12px;
+				line-height:24px;
+				margin: 18px auto;
+
+			}
+			.p-btn{
+				width: 300px;
+				height: 60px;
+				margin: 84px auto;
+				background-color: #4FD2AB;
+				text-align: center;
+				line-height: 60px;
+				border-radius: 5px;
+			}
+			.p-btn a{
+				width: 100%;
+				height: 100%;
+				text-decoration: none;
+				color: white;
+			}
